@@ -95,5 +95,12 @@ console.log(ticketPriceTotal);
 // Problem 1
 
 // Problem 2
+// We want to acknowledge all the companies who donated over $100.00. Get a list of all who donated over $100.00 so we can thank them. 
+let TopDonations = runners.filter((object, index, arr)=>{
+    return object.donation > 100;})
+
+    console.log(TopDonations);
+
+
 
 // Problem 3
